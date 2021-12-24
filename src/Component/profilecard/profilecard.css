@@ -1,0 +1,163 @@
+.profile-card-container{
+    display: flex;
+   justify-content: space-between;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+.verticalline{
+    border-left: 1px solid #6e6e73;
+    margin-left: 9px;
+    margin-right: 9px;
+    height: 18px;
+margin-top: 5px;
+}
+.image-emp , .emp-info ,  .line{
+    margin-right: 40px;
+}
+.profile-card-container:last-child{
+    margin-right: 0;
+    right: 0;
+}
+.emp-image{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 500px;
+    width: 380px;
+}
+.emp-info{
+    width: 575px;
+}
+.name-location{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding: 5px 4px;
+}
+.name{
+    font-size: 20px;
+    margin: 0;
+    letter-spacing: 0.025rem;
+}
+.location p{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 15px;
+    text-align:start;
+    font-weight: 200;
+}
+.location p svg {
+    color: #3fad97;
+}
+.exp-title{
+    margin: 0;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color: #3fad97;
+}
+.exp-title svg{
+    margin-right: 10px;
+    
+}
+.heading-exp{
+    display: flex;
+    margin-left: 42px;
+}
+.experience{
+    font-size: 11px;
+    border-radius: 8px;
+    margin-left: 10px;
+    width: 85px;
+text-align: center;
+background-color: #74cab9;
+color: white;
+padding: 6px 8px;
+}
+.logo-name{
+    display: flex;
+    align-items: center;
+    height: 65px;
+}
+.logo-name div{
+    /* margin-left: 6px; */
+}
+.logo-name p{
+    margin: 0;
+    margin-top: 4px;
+}
+.comp-logo{
+    margin-top: 30px;
+width: 50px;
+height: 55px;
+margin-right: 4px;
+}
+.position{
+    font-size: 18px;
+font-weight: 600;
+margin-top: 12px;
+margin-bottom: 5px;
+letter-spacing: 0.025rem;
+}
+.company-name{
+    font-size: 17px;
+    font-weight: 200;
+}
+.dates{
+    margin-top: 11px;
+    font-size: 13px;
+    margin-left: 55px;
+    color: grey;
+    font-weight: 100;
+}
+.desc{
+    margin: 0;
+    margin-left: 55px;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+.education{
+    margin-top: 28px;
+}
+.edu-title{
+    font-size: 15px;
+}
+.edu{
+    margin-left: 45px;
+}
+.edu p{
+    margin: 0;
+    margin-left: 32px;
+}
+.edu:first-child{
+    margin-top: 15px;
+}
+.Branch{
+    padding: 5px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.college{
+    margin-top: 9px;
+ font-size: 16px;
+ font-weight: 300;
+}
+.line{
+    margin-top: 5%;
+    margin-right: 0;
+    
+    height: 380px;
+}
+.dark{
+    height: 280px;
+    border: 3px solid #6bc0af ;
+    
+}
+.light{
+    height: 100px;
+    border: 3px solid #9de4d6;
+}
